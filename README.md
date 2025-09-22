@@ -19,8 +19,6 @@ Think of it as having a smart assistant that lives inside your browser - one tha
 - **💾 Saves Everything**: Exports your session data so you can review what happened
 - **🖥️ Beautiful Interface**: Clean, modern web interface that's actually fun to use
 
-## 🚀 Let's Get You Started!
-
 ### What You'll Need
 
 First things first - you'll need a few things to get this running:
@@ -33,8 +31,8 @@ First things first - you'll need a few things to get this running:
 Just run our installation script and it'll handle everything:
 
 ```bash
-git clone https://github.com/Hamzakhan7473/Voice-Enabled-Browser-Agent.git
-cd Voice-Enabled-Browser-Agent
+git clone https://github.com/Abhiram03-2009/Voice_Enabled_Browser_Agent.git
+cd Voice_Enabled_Browser_Agent
 chmod +x install.sh
 ./install.sh
 ```
@@ -49,8 +47,8 @@ The script will:
 
 1. **Get the code**
    ```bash
-   git clone https://github.com/Hamzakhan7473/Voice-Enabled-Browser-Agent.git
-   cd Voice-Enabled-Browser-Agent
+   git clone https://github.com/Abhiram03-2009/Voice_Enabled_Browser_Agent.git
+   cd Voice_Enabled_Browser_Agent
    ```
 
 2. **Install the good stuff**
@@ -159,37 +157,6 @@ Voice-Enabled-Browser-Agent/
 
 Each folder has a specific job, and they all work together to make the magic happen!
 
-## 🔧 Making It Your Own
-
-Want to customize things? Here's how:
-
-### Audio Settings
-If you want to tweak how it hears you:
-```env
-AUDIO_SAMPLE_RATE=16000    # How clear the audio is
-AUDIO_CHANNELS=1           # Mono or stereo
-AUDIO_BIT_DEPTH=16         # Audio quality
-```
-
-### Browser Settings
-The system automatically picks the best settings for browser automation, but you can customize them if you know what you're doing!
-
-### Understanding Commands
-Want to add new voice commands? Check out `src/nlp/IntentParser.js` - that's where the magic of understanding happens.
-
-## 🛠️ For Developers
-
-### Development Mode
-```bash
-npm run dev
-```
-This runs with auto-restart so you can see changes immediately.
-
-### Testing Your Changes
-```bash
-npm test
-```
-
 ### How the Code Works
 - **Everything's Modular**: Each part does one thing well
 - **Real-time Communication**: Uses Socket.IO so everything updates instantly
@@ -247,47 +214,4 @@ It works with all the major browsers:
 - **Smart Selection**: Picks the best elements to interact with
 - **Caching**: Remembers things so it doesn't have to figure them out again
 
-## 🤝 Want to Help?
-
-We'd love your help! Here's how:
-
-1. **Fork** the repository (make your own copy)
-2. **Create** a new branch for your feature (`git checkout -b feature/amazing-feature`)
-3. **Make** your changes and commit them (`git commit -m 'Add amazing feature'`)
-4. **Push** to your branch (`git push origin feature/amazing-feature`)
-5. **Open** a Pull Request and tell us what you built!
-
-## 📄 License
-
-This project is open source under the MIT License - basically, you can use it, modify it, and share it freely!
-
-## 🙏 Thanks to the Amazing People Who Made This Possible
-
-- **[Deepgram](https://deepgram.com/)** - For making speech-to-text actually work well
-- **[Browserbase](https://browserbase.com/)** - For reliable browser automation that doesn't break
-- **[OpenAI](https://openai.com/)** - For understanding what we actually mean when we talk
-- **[Playwright](https://playwright.dev/)** - For controlling browsers like a pro
-- **[Socket.IO](https://socket.io/)** - For making everything update in real-time
-
-## 📞 Need Help?
-
-Having trouble? Here's how to get help:
-
-- **GitHub Issues**: Found a bug? Let us know!
-- **Discussions**: Want to chat about features? Join the conversation!
-- **Email**: For serious stuff, reach out directly
-
-## 🔮 What's Coming Next?
-
-We've got big plans:
-
-- [ ] **Multi-language support** - Talk to it in Spanish, French, etc.
-- [ ] **Custom voice commands** - Teach it your own shortcuts
-- [ ] **Mobile app** - Control your browser from your phone
-- [ ] **Better data visualization** - Pretty charts and graphs
-- [ ] **Team features** - Share sessions with your team
-- [ ] **Enterprise security** - For the big companies
-
----
-
-**Built with ❤️ because talking to computers should be as easy as talking to people**
+**Built by Abhiram Kaakarla**
